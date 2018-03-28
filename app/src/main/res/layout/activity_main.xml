@@ -15,6 +15,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
         android:layout_below="@+id/cir_image">
 
         <FrameLayout
@@ -60,6 +61,7 @@
             android:layout_centerHorizontal="true"
             android:background="@color/colorAccent"
             android:padding="10dp"
+            android:visibility="invisible"
             android:text="点击获取数据"
             android:textColor="#fff" />
 
@@ -74,6 +76,7 @@
             android:background="@color/colorAccent"
             android:padding="10dp"
             android:text="直播"
+            android:visibility="invisible"
             android:textColor="@color/white" />
 
 
@@ -86,6 +89,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="70dp"
+        android:visibility="invisible"
         android:background="@drawable/ic_launcher" />
 
 
