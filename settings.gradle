@@ -1,1 +1,1 @@
-include ':app', ':libWSLive'
+include ':app', ':libWSLive', ':hellolibrary'

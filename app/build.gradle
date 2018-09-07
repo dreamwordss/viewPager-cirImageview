@@ -62,4 +62,5 @@ dependencies {
 
     compile 'gun0912.ted:tedpermission:2.1.0'
     compile project(':libWSLive')
+    compile project(':hellolibrary')
 }
